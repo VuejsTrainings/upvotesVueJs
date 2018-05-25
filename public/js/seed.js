@@ -19,6 +19,15 @@ function Seed(){
             avatar: 'public/images/avatars/kristy.png',
             picture: 'public/images/submissions/image-steel.png'
         },
+        {
+            id: 3,
+            title: 'Pour l\'autorisation des punitions corporelles',
+            description: 'Autoriser les parents à punir physiquement leurs enfants lorsque ceux-ci sont insensibles aux punitions et menaces verbales.',
+            url: '#',
+            votes: 17,
+            avatar: 'public/images/avatars/veronika.jpg',
+            picture: 'public/images/submissions/image-rose.png'
+        },
 
     ];
     return {

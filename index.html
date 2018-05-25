@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Upvote!</title>
+        <meta charset="utf-8" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css" />
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" />
         <link rel="stylesheet" href="public/css/styles.css" />
@@ -10,7 +11,7 @@
         <div id="app">
             <h1 class="title has-text-centered dividing-header">upVote!</h1>
             <section class="section">
-                <article class="media" v-for="submission in submissions" v-bind:key="submission.id">
+                <article class="media" v-for="submission in topSubmissionsFirst" v-bind:key="submission.id">
                     <figure class="media-left">
                         <img v-bind:src="submission.picture" alt="" class="image is-64x64">
                     </figure>
