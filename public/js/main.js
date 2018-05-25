@@ -8,5 +8,10 @@ new Vue({
         topSubmissionsFirst() {
             return this.submissions.sort( (a,b) => b.votes - a.votes )
         }
+    },
+    methods: {
+        augmentVotes(submission){
+            submission.votes++;
+        }
     }
 });
