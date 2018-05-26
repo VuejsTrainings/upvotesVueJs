@@ -1,0 +1,9 @@
+{
+  "name": "upvote",
+  "version": "1.0.0",
+  "description": "Projet simpliste de démonstration de Vue.js en mode CDN pour formations Vue.js",
+  "main": "index.html",
+  "repository": "https://github.com/ericGuyaderBerger/upvotesVueJs.git",
+  "author": "Eric Guyader <ericguyader@yahoo.fr>",
+  "license": "none"
+}
